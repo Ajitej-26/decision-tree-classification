@@ -1,9 +1,23 @@
-Decision Tree Implementation
+# Decision Tree Classification
 
+A machine learning project implementing a Decision Tree Classifier to predict target labels based on input features using the scikit-learn library.
 
-A python 3 implementation of decision tree commonly used in machine learning classification problems. Currently, only discrete datasets can be learned. (The algorithm treats continuous valued features as discrete valued ones).
+## 📌 Overview
+This project focuses on:
+- Building a Decision Tree using scikit-learn.
+- Visualizing the trained model.
+- Evaluating performance using accuracy and confusion matrix.
 
-Features
+## 📊 Dataset
+- Format: CSV
+- Contains features such as [your actual features]
+- Target variable: [Target column]
 
+## 🧠 Model
+- Algorithm: Decision Tree Classifier
+- Library: scikit-learn
+- Hyperparameters: `criterion='gini'`, `max_depth=3`
 
-You can fit the classifier over the training data(using either gain ratio or gini index as metric), make predictions and get the score(mean accuracy) for testing data as well. The machine learning decision tree model after fitting the training data can be exported into a PDF. On comparison of inbuilt sklearn's decision tree with our model on the same training data, the results were similar.
+## 🛠️ Installation
+```bash
+pip install -r requirements.txt
